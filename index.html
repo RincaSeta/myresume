@@ -1,0 +1,391 @@
+<html>
+<head>
+	<title>My Personal resume</title>
+	<link rel="stylesheet" type="text/css" href="MyStyle_RSMWeb.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script src="JS/JS_RSMWeb.js"></script> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="container">
+		<!------------------
+			NAVIGATION
+		------------------->
+		<header class="nav-container">
+			<img src="https://spin.atomicobject.com/wp-content/uploads/jasmine_logo1.png"> <!---LOGO--->
+		  
+			<nav class="header-nav-wrap">
+				<ul class="header-nav">
+				  <li><a  href="#home" class="scroll-link" data-id="home">Home</a></li>
+				  <li><a href="#profile" class="scroll-link" data-id="profile">Profile</a></li>
+				  <li><a href="#resume" class="scroll-link" data-id="resume">Resume</a></li>
+				  <li><a href="#contact" class="scroll-link" data-id="contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+		</header>
+		
+		<!------------------
+				HOME
+		------------------->
+		<section id="home">
+			<div class="home-container">
+				<div class="intro">
+					<div class="welcome">Visit my Personal</div>
+					<div class="resume">Resume</div>
+					<div class="visit-btn btn"><a href="#home-content" class="scroll-link" data-id="home-content">Visit now</a></div>
+				</div>
+			</div>
+		</section>
+		
+		<!---------------------
+		CLICK CONTENT-VISIT BTN
+		---------------------->
+		<section id="home-content">
+			<div class="home-content-container">
+				<h1>
+					<span>Welcome to </span>
+					<span>My Resume </span>
+					<span>Website</span>
+				</h1>
+				
+				<p>Tôi đang là <span class="doDam">BA</span> tại Công ty chuyên về Phần mềm, phụ trách nghiên cứu các <span class="doDam gachChan">Công nghệ mới</span>, phân tích và đưa ra phương án phù hợp nhất cho các Phần mềm của đối tác. Ngoài ra, tôi còn là một <span class="doDam">Editor</span>, trực tiếp thực hiện các video truyền thông cho các Hệ thống công nghệ của đối tác và Công ty. Tôi có thể <span class="doDam gachChan">sử dụng các ngôn ngữ lập trình</span> Javascript, Java, PHP để trực tiếp code website, ứng dụng di động, phần mềm,...</p>
+			</div>
+		</section>
+		
+		<!------------------
+			  PROFILE
+		------------------->
+		<section id="profile">
+			<div class="profile-container">
+				<div class="row-title">
+					<p>Profile</p>
+				</div>
+				
+				<div class="arrow-down"></div>
+				
+				<div class="profile-content-container">
+					<div class="picture col-xs-12 col-md-6 col-lg-6">
+						<img src="Image/Home3.jpg" alt="picture">
+					</div>
+
+					<!--Information-->
+					<div class="information col-xs-12 col-md-6 col-lg-6">
+						<table>
+							<tr>
+								<td width="30%"><b>Full name:</b></td>
+								<td>TRAN THI THU QUYNH</td>
+							</tr>
+							<tr>
+								<td width="30%"><b>Nickname:</b></td>
+								<td>Rinca</td>
+							</tr>
+							<tr>
+								<td width="30%"><b>Sex:</b></td>
+								<td>Female</td>
+							</tr>
+							<tr>
+								<td width="30%"><b>BirthDay:</b></td>
+								<td>08/08</td>
+							</tr>
+							<tr>
+								<td width="30%"><b>Marital:</b></td>
+								<td>Single</td>
+							</tr>
+							<tr>
+								<td width="30%"><b>Country:</b></td>
+								<td>Viet Nam</td>
+							</tr>
+							<tr>
+								<td width="30%"><b>Home Town:</b></td>
+								<td>Thai Binh</td>
+							</tr>
+							<tr>
+								<td width="30%"><b>Blood Group:</b></td>
+								<td>AB</td>
+							</tr>
+							<tr>
+								<td width="30%"><b>Zodiac:</b></td>
+								<td>Leo</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+				<!--What can I do-->
+				<div class="dowork-container">
+					<h1>
+						<span>What can </span>
+						<span>I do?</span>
+					</h1>
+
+					<div class="icon">
+
+						<div class="write col-xs-12 col-md-6 col-lg-3">
+							<img src="Image/writing.png" alt="write">
+							<h4>WRITING</h4>
+							<p>Viết quảng cáo, review sản phẩm; review địa điểm du lịch, công nghệ...</p>
+						</div>              
+
+						<div class="translate col-xs-12 col-md-6 col-lg-3">
+							<img src="Image/translation.png" alt="Transation">
+							<h4>TRANSLATION</h4>
+							<p>Dịch tài liệu/sách/báo... tiếng Anh, tiếng Trung sang tiếng Việt.</p>
+						</div>
+
+						<div class="front-end col-xs-12 col-md-6 col-lg-3">
+							<img src="Image/frontend.png" alt="Front-end">
+							<h4>DEVELOPER</h4>
+							<p>Code Web, Landing-page theo yêu cầu.</p>
+						</div>
+
+						<div class="account col-xs-12 col-md-6 col-lg-3">
+							<img src="Image/accounting.png" alt="Accounting">
+							<h4>EDITOR</h4>
+							<p>Edit video, Sub...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!---Social link--->
+		<section class="social-link">
+			<div class="social-container white-background">
+				<h1>
+					<span>My</span>
+					<span>Social</span>
+					<span>Links</span>
+				</h1>
+				
+				<div class="social-media-logo">
+					<a class="social-icon" href="https://www.facebook.com/shikitomika"><i class="fa fa-facebook"></i></a>
+					<a class="social-icon" href="https://twitter.com/NanamiOguri"><i class="fa fa-twitter"></i></a>
+					<a class="social-icon" href="https://www.instagram.com/rincaseta/"><i class="fa fa-instagram"></i></a>
+					<a class="social-icon" href="https://www.pinterest.com/shikitomika/"><i class="fa fa-google-plus"></i></a>
+					<a class="social-icon" href="https://plus.google.com/u/5/108597461074046343105?hl=vi"><i class="fa fa-pinterest"></i></a>
+				</div>
+			</div>
+		</section>
+		
+		<!------------------
+			   RESUME
+		------------------->
+		<section id="resume">
+			<div class="resume-container">
+				<div class="row-title">
+					<p>Resume</p>
+				</div>
+				
+				<div class="arrow-down"></div>
+				
+				<div class="resume-content-container">
+					<div class="jobeducation">
+						<h1>
+							<span>My</span>
+							<span>Jobs</span>
+							<span>and</span>
+							<span>Education</span>
+						</h1>
+						
+						<ul class="timeline">
+							<li class="event">
+								<div class="timestamp">
+									<span class="timedate">2013</span>
+								</div>
+								<div class="organization">
+									<h4 class="or-event">Veterinary</h4>
+									<p class="or-name">Hua</p>
+								</div>
+							</li>
+
+							<li class="event">
+								<div class="timestamp">
+									<span class="timedate">2015</span>
+								</div>
+								<div class="organization">
+									<h4 class="or-event">Accounting</h4>
+									<p class="or-name">Hua</p>
+								</div>
+							</li>
+
+							<li class="event">
+								<div class="timestamp">
+									<span class="timedate">2016</span>
+								</div>
+								<div class="organization">
+									<h4 class="or-event">Secretary</h4>
+									<p class="or-name">Vietcombank</p>
+								</div>
+							</li>
+
+							<li class="event">
+								<div class="timestamp">
+									<span class="timedate">2017</span>
+								</div>
+								<div class="organization">
+									<h4 class="or-event">Accountant</h4>
+									<p class="or-name">Abbank</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="skill">
+						<h1>
+							<span>My</span>
+							<span>Skills</span>
+						</h1>
+						
+						<ul class="skillbar">
+							<li>Accouting</li>
+							<div class="skillbox">
+								<div class="skill1"></div>
+							</div>
+
+							<li>Veterinary</li>
+							<div class="skillbox">
+								<div class="skill2"></div>
+							</div>
+
+							<li>Writing</li>
+							<div class="skillbox">
+								<div class="skill3"></div>
+							</div>
+
+							<li>Soft Skill</li>
+							<div class="skillbox">
+								<div class="skill4"></div>
+							</div>
+
+							<li>Web Design</li>
+							<div class="skillbox">
+								<div class="skill5"></div>
+							</div>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!---Resume Download--->
+		<section class="resume-download">
+			<div class="resume-download-container white-background">
+				<h1>
+					<span>Resume</span>
+					<span>Note</span>
+				</h1>
+				
+				<p class="download-content">Tôi mong muốn tìm kiếm những trải nghiệm mới, để có nhiều kinh nghiệm mới và học hỏi thêm những điều mới.</p>
+				
+				<!-- <div class="download-btn btn">Download</div> -->
+				
+			</div>
+		</section>
+		
+		<!------------------
+			  CONTACT
+		------------------->
+		<section id="contact">
+			<div class="contact-container">
+				<div class="row-title">
+					<p>Contact</p>
+				</div>
+				
+				<div class="arrow-down"></div>
+				
+				<div class="contact-content-container">
+					<div class="adress">
+						<h1>
+							<span>Adress</span>
+							<span>Information</span>
+						</h1>
+						<!-- 
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div> -->
+					
+					<div class="phone">
+						<p> 
+							<span class="fa fa-phone"></span>
+							<span class="info">Phone:</span>
+						</p>
+						<p>(84)123.456.7890</p>
+						<p>(024)123.4567</p>
+					</div>
+					
+					<div class="mail">
+						<p> 
+							<span class="fa fa-envelope"></span> 
+							<span class="info">Email:</span>
+						</p>
+						<p>quynhttt.tbi@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!---Contact us--->
+		<section class="contact-me">
+			<div class="contact-me-container white-background">
+				<h1>
+					<span>Contact</span>
+					<span>Me</span>
+				</h1>
+				<form id="input" action="#" method="post">
+					<p><input class="value-input name" type="text" placeholder="Your Name" required></p>
+					<p><input class="value-input email" type="text" placeholder="Your Email" required></p>
+					<p><input class="value-input numberPhone" type="number" placeholder="Your Phone Number"></p>
+					<p><textarea class="value-input messenger" placeholder="Your Messenger"></textarea></p>
+					
+					<div id="send" class="send-btn btn">Send Messenger</div>
+				</form>
+			</div>
+		</section>
+		
+		<!------------------
+			  FOOTER
+		------------------->
+		<section id="footer">
+			<div class="footer-container">
+				<div class="footer-info">
+					<div class="fcol col1 col-lg-4">
+						<h2 class="fcol-title">About</h2>
+						<p class="fcol-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </P>
+					</div>
+				
+					<div class="fcol col2 col-lg-4">
+						<h2 class="fcol-title">Key word</h2>
+						<p class="fcol-content">Resume, Onepage, Personal </P>
+					</div>
+					
+					<div class="fcol col3 col-lg-4">
+						<h2 class="fcol-title">Social media</h2>
+						<a class="social-icon" href="https://www.facebook.com/shikitomika"><i class="fa fa-facebook"></i></a>
+						<a class="social-icon" href="https://twitter.com/NanamiOguri"><i class="fa fa-twitter"></i></a>
+						<a class="social-icon" href="https://www.instagram.com/rincaseta/"><i class="fa fa-instagram"></i></a>
+						<a class="social-icon" href="https://www.pinterest.com/shikitomika/"><i class="fa fa-google-plus"></i></a>
+						<a class="social-icon" href="https://plus.google.com/u/5/108597461074046343105?hl=vi"><i class="fa fa-pinterest"></i></a>
+					</div>
+				</div>
+				
+				<div class="copyright">
+					<span>© Copyright Resume 2017.</span> 
+					<span>Design by Rinca</a></span>	         	
+				</div>
+			</div>
+		</section>
+		
+		<!------------------
+			BACK GO TOP
+		------------------->
+		<div id="go-top">
+			<div class="go-top-btn"><a href="#home" class="scroll-link" data-id="home">Top</div>
+		</div>
+	</div>
+</body>
+</html>
