@@ -219,7 +219,7 @@ body {
 		height: 100%;
 		z-index: -1;
 		opacity: 0.;
-		background: url("Image/Home2.jpg");
+		background: url("image/Home2.jpg");
 		background-size: cover;
 		background-position: top center;
 	}
@@ -357,7 +357,7 @@ body {
 		height: 100%;
 		z-index: -1;
 		opacity: 0.5;
-		background: url(Image/Pic4.jpg);
+		background: url(image/Pic4.jpg);
 		background-size: cover;
 		background-position: top center;
     }
@@ -506,7 +506,7 @@ body {
 		height: 100%;
 		z-index: -1;
 		opacity: 0.5;
-		background: url(Image/background1.jpg);
+		background: url(image/background1.jpg);
 		background-size: cover;
 		background-position: top center;
     }
@@ -661,7 +661,7 @@ body {
 		height: 100%;
 		z-index: -1;
 		opacity: 0.5;
-		background: url(Image/Contact.jpg);
+		background: url(image/Contact.jpg);
 		background-size: cover;
 		background-position: top center;
     }
